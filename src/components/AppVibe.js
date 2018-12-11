@@ -25,7 +25,7 @@ export default () => {
             </div>
             <div className="col s3">
                 <Keuze
-                    tekst="NEUTRAL"
+                    tekst="NEUTRAAL"
                     kleur="brown"
                 />
             </div>

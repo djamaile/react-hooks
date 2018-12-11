@@ -1,4 +1,6 @@
 import React from 'react'
+import {useGlobal} from 'reactn';
+
 
 export default ({tekst,kleur}) => {
 
@@ -8,13 +10,17 @@ export default ({tekst,kleur}) => {
         maxHeight:'100%'
     };
 
+    const[global,setGlobal]=useGlobal();
+
     const tekstStyle={
         color:'white',
         textAlign:'center'
     };
 
     const setVibe = () => {
-        alert(`${tekst}`);
+        setGlobal({
+            vibe: `${tekst}`
+        });
     }
 
     return(

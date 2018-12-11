@@ -5,7 +5,7 @@ import {setGlobal} from 'reactn';
 
 setGlobal({
     applicatie: 'React Hooks',
-    vibe: 'neutraal'
+    vibe: 'NEUTRAAL'
 })
 
 const app = (
